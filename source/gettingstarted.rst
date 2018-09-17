@@ -53,7 +53,7 @@ Open a browser (we recommend Chrome or Firefox). Enter the application URL provi
   
   BOT’s Summary (Total)- We need to configure a Catalyst Account to view the count of Bot’s summary.  
 
-.. image:: images/DashboardBSMView.png
+.. image:: images/DashboardBSMView-new.png
 
 Configuring Cloud Credentials
 -----------------------------
