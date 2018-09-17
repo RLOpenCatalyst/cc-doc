@@ -1,5 +1,9 @@
 Appendix A
 ==========
+
+Download the below Data Collection template by clicking on the following link 
+.. _a link: https://s3.us-east-2.amazonaws.com/rlcatalyst/templates/CommandCenter_DataCollectionTemplate.xlsx
+
 +-------------------------------+--------------------------------------------------------------------------------+
 | Registration Information                                                                                       | 
 +===============================+================================================================================+

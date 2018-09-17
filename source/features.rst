@@ -166,3 +166,20 @@ By clicking on link “Plan Outage” which is available under the menu, applica
 
 .. image:: images/PlannedOutageDetails.jpg
 
+Contact Person
+--------------
+
+In an operations center which is using a tool like Command Center, one of the first pieces of information required when a problem is detected is the contact person designated for that Business Service. The idea of this feature is to ensure that Command Center provides an easy way to enter and display this information.
+
+In the Settings screen, provided one more tab called Contact Details.In this screen, we can add Contact Details for each BSM.
+
+.. image:: images/ContactDetails.png
+
+On the Dashboard screen, each BSM card should show a ContactDetails icon. Clicking this icon should present the Contact details for that BSM in a pop-up screen.
+
+.. image:: images/ContactDetailsIcon.png
+
+
+
+
+
