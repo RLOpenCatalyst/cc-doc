@@ -173,7 +173,7 @@ In an operations center which is using a tool like Command Center, one of the fi
 
 In the Settings screen, provided one more tab called Contact Details.In this screen, we can add Contact Details for each BSM.
 
-.. image:: images/ContactDetails.jpg
+.. image:: images/ContactDetails.JPG
 
 On the Dashboard screen, each BSM card should show a ContactDetails icon. Clicking this icon should present the Contact details for that BSM in a pop-up screen.
 
