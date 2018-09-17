@@ -53,7 +53,7 @@ Open a browser (we recommend Chrome or Firefox). Enter the application URL provi
   
   BOT’s Summary (Total)- We need to configure a Catalyst Account to view the count of Bot’s summary.  
 
-.. image:: images/dashboardBSMView.png
+.. image:: images/DashboardBSMView.png
 
 Configuring Cloud Credentials
 -----------------------------
@@ -67,7 +67,7 @@ RLCatalyst Command Centre gives you the ability to view all your cloud assets (s
   
 Configure your Cloud Account Details in the Command Centre Settings to view all your cloud assets in one place. Command Centre collects the information from the configured cloud account periodically. You can configure the interval in which this information refreshes.   
 
-.. image:: images/ProviderSettings.png
+.. image:: images/ProvidersSetting.png
 
 In Provider Settings, we have categorized the providers based on their services. Depends on Category selection Provider List will load the available vendors.
 
@@ -129,7 +129,7 @@ Add Business Services to be monitored in the dashboard view. Each service added 
  5.	    A verification e-mail will be sent to each email ID provided above. Clicking on the link in the email will confirm the email ID for receiving emails.   
  6.	    Check the box to get email notifications for linked services 
 
-.. image:: images/AddBusinessService.jpg 
+.. image:: images/AddBusinessService.jpg
 
 Configuring the Catalyst Account
 --------------------------------
