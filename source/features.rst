@@ -179,6 +179,84 @@ On the Dashboard screen, each BSM card should show a ContactDetails icon. Clicki
 
 .. image:: images/ContactDetailsIcon.png
 
+Impact Tree
+-----------
+
+Impact tree provides a quick way to view the quick glance where in the topology the problem is.
+
+On the main Dashboard view, if a BSM card appears yellow, the user should be able to click on an icon that shows at a quick glance pop-up.This pop-up should show a tree-view with the BSM at the top, with the Nodes under it and the services under the nodes.Based on the alerts each level will be marked with a Yellow or Red highlight.
+
+.. image:: images/impacttreeicon.JPG
+
+.. image:: images/topologyquickview.JPG
+
+Outage Summary Report
+---------------------
+
+Outage Summary Report will facilitate an operation manager what outages were faced,planned deployments and what early warning was provided by the tool.A report that can be run for different time-periods and which lists the outages and alerts shall be provided.
+
+A new item called “Reports” be added to the application-menu (top-left).
+
+.. image:: images/report.JPG
+
+Clicking on the “Reports” menu item shall lead the user to a screen where he can choose the report to run.
+
+.. image:: images/reporttorun.JPG
+
+On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Outage Summary Report” the following input items shall be displayed.
+ BSM: This will be a drop-down that allows a specific BSM item that will run the report under the logged in tenant.
+
+ Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
+
+  This day: Will mean the time-period from 12:00am of the current date to now.
+  This week: Will mean the time-priod from 12:00am of Monday of the current week to now
+  This month: Will mean the time-period from 12:00am of 1st of the current month to now
+  Last 24 hours: will mean 24 hour period from current time.
+  Last 7 days: will mean 24*7 hour period from current time.
+  Last 30 days: will mean 30*24 hour period from current time.
+ 
+.. image:: images/reportinputfields.JPG
+
+Based on BSM Selection & Duration filter selection,outage summary report shall be generate with the two buttons "Download report as PDF" and "E-mail report".
+
+.. image:: images/createreport.JPG
+
+Pre-outage Window Analysis
+--------------------------
+
+In case of an outage, an operations manager would like to quickly check what alerts have been raised in the time immediately preceding the outage. Pre-outage window analysis feature is to make this information readily available.
+
+In the Outage page under trend-view, shall display the alerts raised against that service or its linked nodes & services on the trend chart as red (error) dots. When the user clicks on a specific outage, screen shall show the alerts in the bottom panel.
+
+.. image:: images/outagetrendchart.JPG
+
+ In the Outage page under History-view, an Alerts icon shall be displayed to the user under the “Action” column. Clicking on the icon should lead the user to the Alerts Monitor page with the alerts for only that BSM listed with the latest alert being the last alert seen preceding the Outage detection time.
+
+.. image:: images/alerticon.JPG
+ 
+.. image:: images/servicealertsfilter.JPG
+
+Information pop-up when checks fail
+-----------------------------------
+
+Command Center will show the user warnings or errors for system parameters when certain thresholds are crossed for certain metrics (CPU, disk usage, memory usage). The idea of this feature is to provide the user with helpful information against these warnings.
+
+The user shall be shown an “info” icon against each warning or error for the system checks (CPU, disk usage, memory usage)in the BSM drilldown screen. This icon will be shown under the “Action” column.Clicking on the icon will show the appropriate message to the user.
+
+.. image:: images/cpuusagecheck.JPG
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+
+
 
 
 
