@@ -245,6 +245,59 @@ The user shall be shown an “info” icon against each warning or error for the
 
 .. image:: images/cpuusagecheck.JPG
 
+Runbook Automation
+------------------
+
+Operations teams define runbooks so that all team-members have access to precise information regarding routines and procedures that are carried out. These runbooks contain information about the specific systems that are being monitored like server IPs, dependent services and the topology. Runbooks also document the Standard Operating Procedures that are to be followed for specific situations. Runbooks are important repositories of knowledge when team-members are trying to resolve outages or trouble-shooting problems. They also provide a reliable documentation that can be followed to achieve specific outcomes. 
+
+RLCatalyst now allows users to automate these runbooks as collections of BOTs and execute specific runbooks against Business Services and the underlying infrastructure or components.
+
+A new item called “Runbooks” link is added to the application-menu (top-left).
+
+.. image:: images/Runbookslink.JPG
+
+Clicking on "Runbooks" link will navigate to the Runbooks screen.
+
+.. image:: images/RunbooksList.JPG
+
+You can opt for Runbook Automation option by associating the runbook to the BSM by clicking on the "Link Runbook" button which is available under Business Services tab in the Settings screen.
+
+.. image:: images/LinkRunbook.JPG
+
+On the Dashboard screen, BSM card should show a Runbook icon when a Runbook has been linked with the Business Service.  
+
+.. image:: images/LinkRunbookIcon.JPG
+
+Clicking on Runbook icon in the DashBoard screen, should navigate to the Runbooks screen of that Business Service
+
+.. image:: images/Runbooksscreen.JPG
+
+You can choose the required BOT from the  BOT's selection menu in the  Runbooks screen and click on Next Step button.
+
+.. image:: images/BOTSelection.JPG
+
+You can execute BOT by passing required parameters to the IP, Cloud Provider and click on Execute Button.
+
+.. image:: images/PassingParameters.JPG
+
+You can execute BOT from the BSM Drilldown screen by clicking on the "Run BOTS" icon available against nodes.
+
+.. image:: images/RunBOTS.JPG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
  
