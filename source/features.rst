@@ -293,17 +293,17 @@ You can execute BOT from the BSM Drilldown screen by clicking on the "Run BOTS" 
 Runbook History
 ---------------
 
- Runbook History will record Success and Failure streams are intended to log problems that occur in a runbook. They are written to the Runbook history when a runbook is executed.
+ Runbook History will record Success and Failure streams intended to log problems that occur in a runbook. They are written to the Runbook history when a runbook is executed.
  
- A new item called "Runbooks History" in the Runbook screen and it will display the available runbooks history
+ A new item called "Runbooks History" will show as an icon in the Runbook screen and it will display the available runbooks history
  
 .. image:: images/RunbookHistoryIcon.JPG
- 
+
  Clicking on "Runbooks History" icon in the Runbook screen will navigate to "Runbooks History" screen.
  
 .. image:: images/RunbookHistoryScreen.JPG
  
- You can view the particular Runbook history by clicking on the "History" icon which is available in the specific Business service related Runbook screen.
+ You can view the particular Runbook history by clicking on the "History" icon which is available in the specific Business Service related Runbook screen.
  
 .. image:: images/SpecificHistory.JPG
  
@@ -314,13 +314,13 @@ Runbook History
 Role based access to BOT's
 --------------------------
 
-CommandCenter facilitate the roll based access permissions to the BOT's.Based on logged in user roles and previleges system will display the BOT's to the user for which he is entitled to run.Level 0,Level 1 are the two levels defined in the CommandCenter.You can extend the levels based on need.
+CommandCenter facilitates the role-based access permissions to the BOT's. Based on the level defined for the logged-in user, the system will display the BOTs to the user which he is entitled to run. Level 0, Level 1 are the two levels defined in the CommandCenter. You can extend the levels based on need.
 
-BOT's availability for L0 user :
+BOTs availability for L0 user :
 
 .. image:: images/Level0User.JPG
 
-BOT's availabity for L1 user :
+BOTs availability for L1 user :
 
 .. image:: images/Level1User.JPG
 
