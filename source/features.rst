@@ -280,9 +280,56 @@ You can execute BOT by passing required parameters to the IP, Cloud Provider and
 
 .. image:: images/PassingParameters.JPG
 
+On BOT execution ,user can see a popup message about the BOT execution after that logs of that particular BOT execution as a popup.
+
+.. image:: images/BOTTrigger.JPG
+
+.. image:: images/BOTExecutionlogs.JPG
+
 You can execute BOT from the BSM Drilldown screen by clicking on the "Run BOTS" icon available against nodes.
 
 .. image:: images/RunBOTS.JPG
+
+Runbook History
+---------------
+
+ Runbook History will record Success and Failure streams are intended to log problems that occur in a runbook. They are written to the Runbook history when a runbook is executed.
+ 
+ A new item called "Runbooks History" in the Runbook screen and it will display the available runbooks history
+ 
+.. image:: images/RunbookHistoryIcon.JPG
+ 
+ Clicking on "Runbooks History" icon in the Runbook screen will navigate to "Runbooks History" screen.
+ 
+.. image:: images/RunbookHistoryScreen.JPG
+ 
+ You can view the particular Runbook history by clicking on the "History" icon which is available in the specific Business service related Runbook screen.
+ 
+.. image:: images/SpecificHistory.JPG
+ 
+ By clicking on "History" screen you can view the specific Business Service related runbook history.
+ 
+.. image:: images/SpecficRunbookHistory.JPG
+
+Role based access to BOT's
+--------------------------
+
+CommandCenter facilitate the roll based access permissions to the BOT's.Based on logged in user roles and previleges system will display the BOT's to the user for which he is entitled to run.Level 0,Level 1 are the two levels defined in the CommandCenter.You can extend the levels based on need.
+
+BOT's availability for L0 user :
+
+.. image:: images/Level0User.JPG
+
+BOT's availabity for L1 user :
+
+.. image:: images/Level1User.JPG
+
+
+
+
+ 
+ 
+ 
 
 
 
