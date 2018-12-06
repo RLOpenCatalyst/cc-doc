@@ -301,6 +301,12 @@ Runbook History
 
 Clicking on "Runbooks History" icon in the Runbook screen will navigate to "Runbooks History" screen.
 
+You can view the particular Runbook history by clicking on the "History" icon which is available in the specific Business Service related Runbook screen.
+
+By clicking on "History" screen you can view the specific Business Service related runbook history.
+ 
+.. image:: images/SpecficRunbookHistory.JPG
+
 Role based access to BOT's
 --------------------------
 
