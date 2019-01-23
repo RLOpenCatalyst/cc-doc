@@ -77,8 +77,9 @@ Command Center will support for following Cloud Account providers.
   * Microsoft Azure
   * AWS
   * Google Cloud
+  * DigitalOcean
 
-**To configure a cloud account**  
+**To configure a Azure cloud account**  
  
   1.    Click on the Settings icon in the top bar
   2.	Click on the Provider Settings tab  
@@ -89,7 +90,9 @@ Command Center will support for following Cloud Account providers.
 +=============================+=================================================================================+
 | Account Name                | Enter a Friendly name                                                           |
 +-----------------------------+---------------------------------------------------------------------------------+
-| Vendor                      | Choose Azure                                                                    |
+| Provider Categories         | Choose Cloud                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider Categories         | Choose Microsoft Azure                                                          |
 +-----------------------------+---------------------------------------------------------------------------------+
 | Time Zone                   | Choose IST                                                                      |
 +-----------------------------+---------------------------------------------------------------------------------+
@@ -113,7 +116,105 @@ Command Center will support for following Cloud Account providers.
 
 *Note: To get the Client ID and Client Secret key, create an application in Azure and set the Role as Reader. To set the Role, Go to Subscription->Resource Group->Access Control(IAM)->Add>Permissions->Add Reader Permission*
 
-.. image:: images/AddProviderAzure.png
+.. image:: images/AddProviderAzure.JPG
+
+**To configure a AWS cloud account**  
+ 
+  1.    Click on the Settings icon in the top bar
+  2.	Click on the Provider Settings tab  
+  3.	Click + button and add your cloud account credentials in Settings with the details captured in Appendix A. Example provided below is for a Azure account. 
+
++-----------------------------+---------------------------------------------------------------------------------+  
+| Field                       | Instructions                                                                    |
++=============================+=================================================================================+
+| Account Name                | Enter a Friendly name                                                           |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider Categories         | Choose Cloud                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider List               | Choose AWS                                                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+| Time Zone                   | Choose IST                                                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+| Authentication Type         | Choose IAM                                                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+| Access Key                  | Enter the Access Key of your AWS Application                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Secret Key                  | Enter the Secret key of your AWS Application                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Region                      | Enter the Region of your AWS Application                                        |
++-----------------------------+---------------------------------------------------------------------------------+
+| Account Number              | Enter the Account Number of AWS Application                                     |
++-----------------------------+---------------------------------------------------------------------------------+                                                | Discover                    | Choose the required options                                                     |
++-----------------------------+---------------------------------------------------------------------------------+
+| Schedule                    | Enter the Time Interval for collecting data from Cloud                          |
++-----------------------------+---------------------------------------------------------------------------------+
+| Repeat                      | Choose the Interval Type – Minutes/Hourly                                       |
++-----------------------------+---------------------------------------------------------------------------------+
+
+.. image:: images/AddProviderAWS.JPG
+
+**To configure a Google cloud account**  
+ 
+  1.    Click on the Settings icon in the top bar
+  2.	Click on the Provider Settings tab  
+  3.	Click + button and add your cloud account credentials in Settings with the details captured in Appendix A. Example provided below is for a Google Cloud account. 
+
++-----------------------------+---------------------------------------------------------------------------------+  
+| Field                       | Instructions                                                                    |
++=============================+=================================================================================+
+| Account Name                | Enter a Friendly name                                                           |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider Categories         | Choose Cloud                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider List               | Google Cloud                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Time Zone                   | Choose IST                                                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+| Authentication Type         | Choose Google Service Account                                                   |
++-----------------------------+---------------------------------------------------------------------------------+
+| Project ID                  | Enter the Project ID of your Google application                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+| Private Key                 | Enter the Private key of your Google Application                                |
++-----------------------------+---------------------------------------------------------------------------------+
+| Client Email                | Enter the email of client generated email                                       |
++-----------------------------+---------------------------------------------------------------------------------+
+| Client Certificate URL      | Enter the client generated URL                                                  |
++-----------------------------+---------------------------------------------------------------------------------+                                                
+| Schedule                    | Enter the Time Interval for collecting data from Cloud                          |
++-----------------------------+---------------------------------------------------------------------------------+
+| Repeat                      | Choose the Interval Type – Minutes/Hourly                                       |
++-----------------------------+---------------------------------------------------------------------------------+
+
+.. image:: images/AddProviderGoogle.JPG
+
+
+**To configure a DigitalOcean cloud account**  
+ 
+  1.    Click on the Settings icon in the top bar
+  2.	Click on the Provider Settings tab  
+  3.	Click + button and add your cloud account credentials in Settings with the details captured in Appendix A. Example provided below is for a DigitalOcean account. 
+
++-----------------------------+---------------------------------------------------------------------------------+  
+| Field                       | Instructions                                                                    |
++=============================+=================================================================================+
+| Account Name                | Enter a Friendly name                                                           |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider Categories         | Choose Cloud                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Provider List               | Choose Digital Ocean                                                            |
++-----------------------------+---------------------------------------------------------------------------------+
+| Time Zone                   | Choose IST                                                                      |
++-----------------------------+---------------------------------------------------------------------------------+
+| Authentication Type         | Choose Token                                                                    |
++-----------------------------+---------------------------------------------------------------------------------+
+| Token                       | Enter the token of your Digital Ocean application                               |
++-----------------------------+---------------------------------------------------------------------------------+
+| Schedule                    | Enter the Time Interval for collecting data from Cloud                          |
++-----------------------------+---------------------------------------------------------------------------------+
+| Repeat                      | Choose the Interval Type – Minutes/Hourly                                       |
++-----------------------------+---------------------------------------------------------------------------------+
+
+.. image:: images/AddProviderDigitalOcean.JPG
 
 Configuring Business Services
 -----------------------------
@@ -149,7 +250,9 @@ Configuring a Catalyst account allows you to access the summary of BOT runs on y
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| Vendor             | Choose RLCatalyst                                                 | 
+| Provider Categories| Choose Automation                                                 |
++--------------------+-------------------------------------------------------------------+ 
+| Provider List      | Choose RLCatalyst                                                 |  
 +--------------------+-------------------------------------------------------------------+
 | Time Zone          | Choose IST                                                        |
 +--------------------+-------------------------------------------------------------------+
@@ -167,7 +270,7 @@ Configuring a Catalyst account allows you to access the summary of BOT runs on y
 +--------------------+-------------------------------------------------------------------+
 
 
-.. image:: images/AddRLCatalystAccount.jpg
+.. image:: images/AddRLCatalystAccount.JPG
 
 When you add a Catalyst account, BOTs Summary panel will appear on the dashboard. 
 
