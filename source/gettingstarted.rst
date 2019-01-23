@@ -270,7 +270,7 @@ Configuring a Catalyst account allows you to access the summary of BOT runs on y
 +--------------------+-------------------------------------------------------------------+
 
 
-.. image:: images/AddRLCatalystAccount.JPG
+.. image:: images/AddRLCatalystAccount.jpg
 
 When you add a Catalyst account, BOTs Summary panel will appear on the dashboard. 
 
