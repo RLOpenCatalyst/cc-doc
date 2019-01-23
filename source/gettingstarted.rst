@@ -122,7 +122,7 @@ Command Center will support for following Cloud Account providers.
  
   1.    Click on the Settings icon in the top bar
   2.	Click on the Provider Settings tab  
-  3.	Click + button and add your cloud account credentials in Settings with the details captured in Appendix A. Example provided below is for a Azure account. 
+  3.	Click + button and add your cloud account credentials in Settings with the details captured in Appendix A. Example provided below is for a AWS account. 
 
 +-----------------------------+---------------------------------------------------------------------------------+  
 | Field                       | Instructions                                                                    |
