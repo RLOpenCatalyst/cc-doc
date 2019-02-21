@@ -216,6 +216,85 @@ Command Center will support for following Cloud Account providers.
 
 .. image:: images/AddProviderDigitalOcean.JPG
 
+Configuring ITSM Credentials
+----------------------------
+Add ITSM service in provider settings, It will raise incident when service is down or not available. After adding ITSM, Dashboard and ITSM menu will update with cards. Clicking on the card will display the data regarding the particular card. ITSM will provide the direct link to the ITSM provider as whenever we select any incident it will redirect to the particular ITSM service.
+
+Command Center will support for following ITSM providers.
+  * ServiceNow
+  * FreshService
+  
+**To configure a ServiceNow account**  
+ 
+  1.    Click on the Settings icon in the top bar
+  2.	Click on the Provider Settings tab  
+  3.	Click + button and add your ITSM account credentials in Settings with the details captured in Appendix A. Example provided below is for a ServiceNow account. 
+  
+  
+
++--------------------+-------------------------------------------------------------------+
+| Field              | Instructions                                                      | 
++====================+========================+==========================================+
+| Account Name       | Enter a Friendly name                                             | 
++--------------------+-------------------------------------------------------------------+ 
+| Provider Categories| Choose ITSM                                                 |
++--------------------+-------------------------------------------------------------------+ 
+| Provider List      | Choose ServiceNow                                                 |  
++--------------------+-------------------------------------------------------------------+
+| Time Zone          | Choose IST                                                        |
++--------------------+-------------------------------------------------------------------+
+|Authentication Type |Password                                                           |
++--------------------+-------------------------------------------------------------------+                                        
+| Host               | URL to your ServiceNow Instance E.g.:ven01746.service-now.com  |
++--------------------+-------------------------------------------------------------------+
+| UserName           | Enter UserName                                                    |
++--------------------+-------------------------------------------------------------------+ 
+| Password           | Enter Password                                                    |
++--------------------+-------------------------------------------------------------------+
+| Schedule           | Enter the Time Interval for collecting data from Catalyst         |
++--------------------+-------------------------------------------------------------------+
+| Repeat             | Choose the Interval Type-Minutes/Hourly                           | 
++--------------------+-------------------------------------------------------------------+
+
+.. image:: images/AddServiceNow.jpg
+
+
+**To configure a FreshService account**  
+ 
+  1.    Click on the Settings icon in the top bar
+  2.	Click on the Provider Settings tab  
+  3.	Click + button and add your ITSM account credentials in Settings with the details captured in Appendix A. Example provided below is for a FreshService account. 
+  
+  
+
++--------------------+-------------------------------------------------------------------+
+| Field              | Instructions                                                      | 
++====================+========================+==========================================+
+| Account Name       | Enter a Friendly name                                             | 
++--------------------+-------------------------------------------------------------------+ 
+| Provider Categories| Choose ITSM                                                 |
++--------------------+-------------------------------------------------------------------+ 
+| Provider List      | Choose FreshService                                                 |  
++--------------------+-------------------------------------------------------------------+
+| Time Zone          | Choose IST                                                        |
++--------------------+-------------------------------------------------------------------+
+|Authentication Type |Password                                                           |
++--------------------+-------------------------------------------------------------------+                                        
+| Host               | URL to your FreshService Instance E.g.:https://rlab.freshservice.com  |
++--------------------+-------------------------------------------------------------------+
+| UserName           | Enter UserName                                                    |
++--------------------+-------------------------------------------------------------------+ 
+| Password           | Enter Password                                                    |
++--------------------+-------------------------------------------------------------------+
+| Schedule           | Enter the Time Interval for collecting data from Catalyst         |
++--------------------+-------------------------------------------------------------------+
+| Repeat             | Choose the Interval Type-Minutes/Hourly                           | 
++--------------------+-------------------------------------------------------------------+
+
+.. image:: images/AddFreshService.JPG
+
+
+
 Configuring Business Services
 -----------------------------
 

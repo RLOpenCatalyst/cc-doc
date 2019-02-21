@@ -62,11 +62,11 @@ Click on the Alerts button to see the detailed Alerts from multiple sources (Pin
  
 Service alerts are shown on the Services tab of the Alert Monitor.  
     
-.. image:: images/ServiceAlerts.jpg 
+.. image:: images/BSMServiceAlertsView.JPG
 
 System alerts are shown in the Nodes tab of the Alert Monitor.  
 
-.. image:: images/NodeAlerts.jpg
+.. image:: images/BSMNodeAlertsView.JPG
 
 The dependent services of the Business Service and their health can be viewed under the Linked services section of the same page.    
 
@@ -234,7 +234,7 @@ In the Outage page under trend-view, shall display the alerts raised against tha
 
 .. image:: images/alerticon.JPG
  
-.. image:: images/servicealertsfilter.JPG
+.. image:: images/BSMServiceAlertsView.JPG
 
 Information pop-up when checks fail
 -----------------------------------
