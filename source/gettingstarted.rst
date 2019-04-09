@@ -513,9 +513,29 @@ Procedure
 .. image:: images/VerifyingSensuAgent.png 
 
   
- 
- 
+**Install monitoring agent(Zabbix) on a Ubuntu machine manually**	 
+
+Procedure
+   
+ 1.    Zabbix apt repositories are available on Zabbix official website. Add the repository to 	install required packages for Zabbix agent using the following command    
+       wget http://repo.zabbix.com/zabbix/3.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_3.4-1%2Bbionic_all.deb
+ 2.    Un-zip the downloaded file using following command
+	   dpkg -i zabbix-release_3.4-1+trusty_all.deb
+ 3.    As you have successfully added Zabbix apt repositories in your system let’s use the following command to install Zabbix agent using the following command
+	   sudo apt-get update
+	   sudo apt-get install zabbix-agent
+ 4.    After installation of Zabbix agent. Edit Zabbix agent configuration file /etc/zabbix/zabbix_agentd.conf and update Zabbix server IP.
+	   #Server=[zabbix server ip]
+	   #Hostname=[Hostname of client system ]
+
+	   Server=192.168.1.10
+	   Hostname=Server2
 	   
+	   Here 192.168.1.10 is the IP of Zabbix server to allow for connection with this Zabbix client.
+ 5.    After adding Zabbix server IP in the configuration file, now restart agent service using below command.
+	   sudo systemctl start zabbix-agent 
+	   
+	      
 
 
 
