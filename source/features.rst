@@ -221,6 +221,33 @@ Based on BSM Selection & Duration filter selection,outage summary report shall b
 
 .. image:: images/createreport.JPG
 
+
+Health Summary Report
+---------------------
+
+Clicking on the “Reports” menu item shall lead the user to a screen where he can choose the report to run.
+
+.. image:: images/HealthSummaryReportRun.JPG
+
+On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Health Summary Report” the following input items shall be displayed.
+ BSM: This will be a drop-down that allows a specific BSM item that will run the report under the logged in tenant.
+
+ Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
+
+  This day: Will mean the time-period from 12:00am of the current date to now.
+  This week: Will mean the time-priod from 12:00am of Monday of the current week to now
+  This month: Will mean the time-period from 12:00am of 1st of the current month to now
+  Last 24 hours: will mean 24 hour period from current time.
+  Last 7 days: will mean 24*7 hour period from current time.
+  Last 30 days: will mean 30*24 hour period from current time.
+ 
+.. image:: images/Healthreportinputfields.JPG
+
+Based on BSM Selection & Duration filter selection,outage summary report shall be generate with the two buttons "Download report as PDF" and "E-mail report".
+
+.. image:: images/createhealthreport.JPG
+
+
 Pre-outage Window Analysis
 --------------------------
 
