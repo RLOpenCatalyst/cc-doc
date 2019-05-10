@@ -512,7 +512,6 @@ Procedure
 
 .. image:: images/VerifyingSensuAgent.png 
 
-  
 **Install monitoring agent(Zabbix) on a Ubuntu machine manually**	 
 
 Procedure
@@ -534,10 +533,3 @@ Procedure
 	   Here 192.168.1.10 is the IP of Zabbix server to allow for connection with this Zabbix client.
  5.    After adding Zabbix server IP in the configuration file, now restart agent service using below command.
 	   sudo systemctl start zabbix-agent 
-	   
-	      
-
-
-
-
- 
