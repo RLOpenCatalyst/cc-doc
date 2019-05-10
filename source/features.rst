@@ -221,7 +221,6 @@ Based on BSM Selection & Duration filter selection,outage summary report shall b
 
 .. image:: images/createreport.JPG
 
-
 Health Summary Report
 ---------------------
 
