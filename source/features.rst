@@ -366,11 +366,11 @@ This list consist of the BOT parameters that CC can accept currently to execute 
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| AwsInstanceIp      | IP address of AWS instance on which operation is to be performed by BOT|
+| AwsInstanceIp      | IP of AWS instance on which operation is to be performed by BOT   |
 +--------------------+-------------------------------------------------------------------+ 
 | SourceCloud        | Credential name by which credential is saved Catalyst.            |  
 +--------------------+-------------------------------------------------------------------+
-| Sender_name        | Name of sender by which SMS to be sent.                           |
+| Sender name        | Name of sender by which SMS to be sent.                           |
 +--------------------+-------------------------------------------------------------------+
 | Message            | Body of Message.                                                  |
 +--------------------+-------------------------------------------------------------------+
