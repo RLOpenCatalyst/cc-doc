@@ -246,7 +246,6 @@ Based on BSM Selection & Duration filter selection,outage summary report shall b
 
 .. image:: images/createhealthreport.JPG
 
-
 Pre-outage Window Analysis
 --------------------------
 
