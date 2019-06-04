@@ -366,17 +366,17 @@ This list consist of the BOT parameters that CC can accept currently to execute 
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| AwsInstanceIp      | IP of AWS instance on which operation is to be performed by BOT   |
+| awsInstanceIp      | IP of AWS instance on which operation is to be performed by BOT   |
 +--------------------+-------------------------------------------------------------------+ 
-| SourceCloud        | Credential name by which credential is saved Catalyst.            |  
+| sourceCloud        | Credential name by which credential is saved Catalyst.            |  
 +--------------------+-------------------------------------------------------------------+
-| Sender name        | Name of sender by which SMS to be sent.                           |
+| sender_name        | Name of sender by which SMS to be sent.                           |
 +--------------------+-------------------------------------------------------------------+
-| Message            | Body of Message.                                                  |
+| message            | Body of Message.                                                  |
 +--------------------+-------------------------------------------------------------------+
-| ApiKey             | API key required to send SMS to user.                             |
+| apiKey             | API key required to send SMS to user.                             |
 +--------------------+-------------------------------------------------------------------+
-| Number             | Receivers phone number.                                           |
+| number             | Receivers phone number.                                           |
 +--------------------+-------------------------------------------------------------------+ 
 
 **Event triggered BOT**
