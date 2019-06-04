@@ -362,21 +362,21 @@ This list consist of the BOT parameters that CC can accept currently to execute 
 
 
 +--------------------+-------------------------------------------------------------------+
-| BOT Parameter Name | Description                                                      | 
+| BOT Parameter Name | Description                                                       | 
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| awsInstanceIp      | IP address of AWS instance on which operation is to be performed by BOT|
+| AwsInstanceIp      | IP address of AWS instance on which operation is to be performed by BOT|
 +--------------------+-------------------------------------------------------------------+ 
-| sourceCloud        | Credential name by which credential is saved Catalyst.            |  
+| SourceCloud        | Credential name by which credential is saved Catalyst.            |  
 +--------------------+-------------------------------------------------------------------+
-| sender_name        | Name of sender by which SMS to be sent.                           |
+| Sender_name        | Name of sender by which SMS to be sent.                           |
 +--------------------+-------------------------------------------------------------------+
-|message             |Body of Message.                                                   |
+| Message            | Body of Message.                                                  |
 +--------------------+-------------------------------------------------------------------+
-| apiKey             | API key required to send SMS to user.                             |
+| ApiKey             | API key required to send SMS to user.                             |
 +--------------------+-------------------------------------------------------------------+
-| number             | Receivers phone number.                                           |
+| Number             | Receivers phone number.                                           |
 +--------------------+-------------------------------------------------------------------+ 
 
 **Event triggered BOT**
@@ -397,7 +397,7 @@ User can configure which BOT can execute on which event by editing runbook. Once
 +------------------------------+---------------------------------------------------------+
 | state                        | Check state                                             |
 +------------------------------+---------------------------------------------------------+
-| botID                        | BOT ID from catalyst.                                    |
+| botID                        | BOT ID from catalyst.                                   |
 +------------------------------+---------------------------------------------------------+         
 Once the BOT and Event are created need to sync the Botfactory from NeoQA and CC.
 
