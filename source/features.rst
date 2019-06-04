@@ -350,40 +350,57 @@ BOTs availability for L1 user :
 
 .. image:: images/Level1User.JPG
 
+Event triggered runbook execution
+---------------------------------
 
+Event triggered runbook execution feature will run the BOT when event is triggered. User can add their own event by editing BOTs factory file. Once the alerts got triggered from sensu/consul/pingbot the respected BOT will run. User can add notifications bot like(SMS_BOT/Emial/slack). Once the BOT is triggered user can verify this from CC(Runbook -> Bots history.)
 
+** BOT Context**
 
- 
- 
- 
+This list consist of the BOT parameters that CC can accept currently to execute Event triggered BOTs. When a BOT is written, it can have parameters only from below list. If some other parameter is passed, BOT will be executed with default parameter given with BOT's definition.
 
++--------------------+-------------------------------------------------------------------+
+| BOT Parameter Name              | Description                                                      | 
++====================+========================+==========================================+
+| Account Name       | Enter a Friendly name                                             | 
++--------------------+-------------------------------------------------------------------+ 
+| awsInstanceIp| IP address of AWS instance on which operation is to be performed by BOT.                                                 |
++--------------------+-------------------------------------------------------------------+ 
+| sourceCloud      | Credential name by which credential is saved Catalyst.                                                 |  
++--------------------+-------------------------------------------------------------------+
+| sender_name          | Name of sender by which SMS to be sent.                                                        |
++--------------------+-------------------------------------------------------------------+
+|message |Body of Message.                                                           |
++--------------------+-------------------------------------------------------------------+                                        
+| apiKey               | API key required to send SMS to user.  |
++--------------------+-------------------------------------------------------------------+
+| number           | Receivers phone number.                                                    |
++--------------------+-------------------------------------------------------------------+ 
 
+**Event triggered BOT**
 
+Event triggered runbook execution feature will run the BOT when event is triggered. 
+User can configure which BOT can execute on which event by editing runbook. Once the event got triggered from server the configured BOT will run. 
 
++--------------------+-------------------------------------------------------------------+
+| Event trigger Parameter Name              | Description                                                      | 
++====================+========================+==========================================+
+| checkID       | Check ID in server                                             | 
++--------------------+-------------------------------------------------------------------+ 
+| severity| severity of check in server                                       |
++--------------------+-------------------------------------------------------------------+ 
+| source      | Server name                                          |  
++--------------------+-------------------------------------------------------------------+
+| state          | Check state                                          |
++--------------------+-------------------------------------------------------------------+
+|botID |BOT ID from catalyst.                                                           |
++--------------------+-------------------------------------------------------------------+         
+Once the BOT and Event are created need to sync the Botfactory from NeoQA and CC.
 
+**Refresh Runbook in CC**
 
+User can update the cache in CC using "Refresh Runbook" icon. 
 
+Refresh Icon in CC:
 
-
-
-
-
-
-
-
- 
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-
+.. image:: images/Cache_Refresh.JPG
