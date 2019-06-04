@@ -359,6 +359,8 @@ Event triggered runbook execution feature will run the BOT when event is trigger
 
 This list consist of the BOT parameters that CC can accept currently to execute Event triggered BOTs. When a BOT is written, it can have parameters only from below list. If some other parameter is passed, BOT will be executed with default parameter given with BOT's definition.
 
+
+
 +--------------------+-------------------------------------------------------------------+
 | BOT Parameter Name | Description                                                      | 
 +====================+========================+==========================================+
@@ -381,6 +383,8 @@ This list consist of the BOT parameters that CC can accept currently to execute 
 
 Event triggered runbook execution feature will run the BOT when event is triggered. 
 User can configure which BOT can execute on which event by editing runbook. Once the event got triggered from server the configured BOT will run. 
+
+
 
 +------------------------------+---------------------------------------------------------+
 | Event trigger Parameter Name | Description                                                      | 
