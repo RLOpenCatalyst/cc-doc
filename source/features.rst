@@ -399,7 +399,7 @@ User can configure which BOT can execute on which event by editing runbook. Once
 +------------------------------+---------------------------------------------------------+
 | botID                        | BOT ID from catalyst.                                   |
 +------------------------------+---------------------------------------------------------+         
-Once the BOT and Event are created need to sync the Botfactory from NeoQA and CC.
+Once the BOT and Event are created need to sync the Botfactory in Catalyst and then CC.
 
 **Refresh Runbook in CC**
 
@@ -408,3 +408,8 @@ User can update the cache in CC using "Refresh Runbook" icon.
 Refresh Icon in CC:
 
 .. image:: images/Cache_Refresh.JPG
+
+History of runbook contains the RunBy column as user can verify the BOTs triggerd information based on tenant or automation BOT.
+
+
+.. image:: images/runByColumn.png
