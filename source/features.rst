@@ -42,6 +42,14 @@ Clicking on Services, Node & ELK Log Icons shall take the user to respective pag
 
 .. image:: images/CMDBViewOfCloudAssets(Monitoring).jpg 
 
+RSS-Feed for cloud providers
+---------------------------
+
+A new tab Third party tab will be displayed in Dependency Health panel, once tenant will add any of the cloud provider.
+
+.. image:: images/CC_ThirdPartyAlerts_DependencyHealth.JPG
+
+
 Aggregated Alerts 
 -----------------
 
@@ -245,6 +253,19 @@ On choosing the report to run from a drop-down menu, the user shall be displayed
 Based on BSM Selection & Duration filter selection,outage summary report shall be generate with the two buttons "Download report as PDF" and "E-mail report".
 
 .. image:: images/createhealthreport.JPG
+
+Command Center reports available in PDF format
+----------------------------------------------
+
+Command center is providing reports in PDF format with graph and data for both Health summary report and Outage summary report. user can download or send as email the pdf report format. report will be available in all the filters.
+
+.. image:: images/DownloadAsPDF.jpg
+
+Downloaded report will be same as bellow for Health summary report.
+
+.. image:: images/HealthSummaryReportPDF.JPG
+
+
 
 Pre-outage Window Analysis
 --------------------------
