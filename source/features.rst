@@ -45,7 +45,7 @@ Clicking on Services, Node & ELK Log Icons shall take the user to respective pag
 RSS-Feed for cloud providers
 ---------------------------
 
-A new tab Third party tab will be displayed in Dependency Health panel, once tenant will add any of the cloud provider.
+A new tab Third party tab will be displayed in Dependency Health panel, which will monitor the cloud provider status which tenant has added in the provider settings.
 
 .. image:: images/CC_ThirdPartyAlerts_DependencyHealth.JPG
 
