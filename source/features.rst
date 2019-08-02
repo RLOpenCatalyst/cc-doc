@@ -3,7 +3,7 @@ Features
 
 Historical BSM Health Indicator
 -------------------------------
-Historical BSM Health Indicator gives you the ability to see the trend of the BSM over last 30 days as a consolidated view. Using this view, the user can then navigate to specific outage view of interest.  
+Historical BSM Health Indicator gives you the ability to see the trend of the BSM over last 30 days as a consolidated view. Using this view, the user can then navigate to specific outage view of interest..
   
 The view can be available with a *Trend Icon* on Top-Left of BSM View and clicking that can show the Consolidated status of all BSM over last 30 days with appropriate status.  
   
@@ -63,6 +63,16 @@ When the service goes down or if an Outage happens, the corresponding card on th
 When any of the dependent services has a problem related to BSM will be Yellow.  Clicking on the card will give details on linked services and the associated nodes
 
 .. image:: images/OutagesasRedCardsOnDashBoard.jpg
+
+Here the details of linked services and the associated nodes of a particular BSM is shown in a graphical representation.
+
+.. image:: images/Graphicalviewfromcard.png
+
+clicking on each box in the graphical view will pop-up and shows the details of that particular thing in a detailed manner.
+
+.. image:: images/Popupdetails.png
+
+At the top right corner, you can see a button which gives us an another option of viewing the details of linked services and asociated nodes for a particular BSm in a listed view.
 
 .. image:: images/DrilldownViewfromCard.jpg
 
@@ -212,7 +222,9 @@ Clicking on the “Reports” menu item shall lead the user to a screen where he
 .. image:: images/reporttorun.JPG
 
 On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Outage Summary Report” the following input items shall be displayed.
- BSM: This will be a drop-down that allows a specific BSM item that will run the report under the logged in tenant.
+ BSM: This will be a drop-down that allows a specific BSM item or All BSMs that will run the report under the logged in tenant.
+
+.. image:: images/BSMselection.png
 
  Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
 
@@ -238,7 +250,9 @@ Clicking on the “Reports” menu item shall lead the user to a screen where he
 .. image:: images/HealthSummaryReportRun.JPG
 
 On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Health Summary Report” the following input items shall be displayed.
- BSM: This will be a drop-down that allows a specific BSM item that will run the report under the logged in tenant.
+ BSM: This will be a drop-down that allows a specific BSM item or All BSMs that will run the report under the logged in tenant.
+
+.. image:: images/HealthsummaryBSMselection.png
 
  Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
 
