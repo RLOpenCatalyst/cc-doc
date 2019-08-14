@@ -275,7 +275,7 @@ Command Center reports available in PDF format
 
 Command center is providing reports in PDF format with graph and data for both Health summary report and Outage summary report. user can download or send as email the pdf report format. report will be available in all the filters.
 
-.. image:: images/DownloadAsPDF.jpg
+.. image:: images/DownloadAsPDF.JPG
 
 Downloaded report will be same as bellow for Health summary report.
 
@@ -434,7 +434,8 @@ User can configure which BOT can execute on which event by editing runbook. Once
 | state                        | Check state                                             |
 +------------------------------+---------------------------------------------------------+
 | botID                        | BOT ID from catalyst.                                   |
-+------------------------------+---------------------------------------------------------+         
++------------------------------+---------------------------------------------------------+        
+
 Once the BOT and Event are created need to sync the Botfactory in Catalyst and then CC.
 
 **Refresh Runbook in CC**
