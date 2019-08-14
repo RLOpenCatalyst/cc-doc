@@ -43,7 +43,7 @@ Clicking on Services, Node & ELK Log Icons shall take the user to respective pag
 .. image:: images/CMDBViewOfCloudAssets(Monitoring).jpg 
 
 RSS-Feed for cloud providers
----------------------------
+----------------------------
 
 A new tab Third party tab will be displayed in Dependency Health panel, which will monitor the cloud provider status which tenant has added in the provider settings.
 
@@ -224,7 +224,7 @@ Clicking on the “Reports” menu item shall lead the user to a screen where he
 On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Outage Summary Report” the following input items shall be displayed.
  BSM: This will be a drop-down that allows a specific BSM item or All BSMs that will run the report under the logged in tenant.
 
-.. image:: images/BSMselection.png
+.. image:: images/BSMselection.JPG
 
 Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
 
