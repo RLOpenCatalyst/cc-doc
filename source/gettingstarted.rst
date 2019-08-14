@@ -105,7 +105,9 @@ Command Center will support for following Cloud Account providers.
 | Grant Type                  | Enter the text ‘client credentials’                                             |
 +-----------------------------+---------------------------------------------------------------------------------+
 | Resource                    | https://management.azure.com/                                                   |
-+-----------------------------+---------------------------------------------------------------------------------+                                                | Subscription ID             | Enter the Azure subscription ID                                                 |
++-----------------------------+---------------------------------------------------------------------------------+
+| Subscription ID             |
+Enter the Azure subscription ID                                                 |
 +-----------------------------+---------------------------------------------------------------------------------+
 | Tenant ID                   | Enter the Azure Tenant ID                                                       |
 +-----------------------------+---------------------------------------------------------------------------------+
@@ -144,7 +146,9 @@ Command Center will support for following Cloud Account providers.
 | Region                      | Enter the Region of your AWS Application                                        |
 +-----------------------------+---------------------------------------------------------------------------------+
 | Account Number              | Enter the Account Number of AWS Application                                     |
-+-----------------------------+---------------------------------------------------------------------------------+                                                | Discover                    | Choose the required options                                                     |
++-----------------------------+---------------------------------------------------------------------------------+
+| Discover                    |
+Choose the required options                                                     |
 +-----------------------------+---------------------------------------------------------------------------------+
 | Schedule                    | Enter the Time Interval for collecting data from Cloud                          |
 +-----------------------------+---------------------------------------------------------------------------------+
@@ -237,7 +241,7 @@ Command Center will support for following ITSM providers.
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| Provider Categories| Choose ITSM                                                 |
+| Provider Categories| Choose ITSM                                                       |
 +--------------------+-------------------------------------------------------------------+ 
 | Provider List      | Choose ServiceNow                                                 |  
 +--------------------+-------------------------------------------------------------------+
@@ -245,7 +249,7 @@ Command Center will support for following ITSM providers.
 +--------------------+-------------------------------------------------------------------+
 |Authentication Type |Password                                                           |
 +--------------------+-------------------------------------------------------------------+                                        
-| Host               | URL to your ServiceNow Instance E.g.:ven01746.service-now.com  |
+| Host               | URL to your ServiceNow Instance E.g.:ven01746.service-now.com     |
 +--------------------+-------------------------------------------------------------------+
 | UserName           | Enter UserName                                                    |
 +--------------------+-------------------------------------------------------------------+ 
@@ -272,15 +276,16 @@ Command Center will support for following ITSM providers.
 +====================+========================+==========================================+
 | Account Name       | Enter a Friendly name                                             | 
 +--------------------+-------------------------------------------------------------------+ 
-| Provider Categories| Choose ITSM                                                 |
+| Provider Categories| Choose ITSM                                                       |
 +--------------------+-------------------------------------------------------------------+ 
-| Provider List      | Choose FreshService                                                 |  
+| Provider List      | Choose FreshService                                               |  
 +--------------------+-------------------------------------------------------------------+
 | Time Zone          | Choose IST                                                        |
 +--------------------+-------------------------------------------------------------------+
 |Authentication Type |Password                                                           |
 +--------------------+-------------------------------------------------------------------+                                        
-| Host               | URL to your FreshService Instance E.g.:https://rlab.freshservice.com  |
+| Host               |
+URL to your FreshService Instance E.g.:https://rlab.freshservice.com  |
 +--------------------+-------------------------------------------------------------------+
 | UserName           | Enter UserName                                                    |
 +--------------------+-------------------------------------------------------------------+ 
@@ -360,7 +365,7 @@ RLCatalyst Command Centre uses monitoring agents that run on the individual mach
 
 **Install Agents through RLCatalyst**
 
-RLCatalyst installs monitoring agents in the target nodes on which the Business Services are running. This is done via a bootstrapping process which will install system monitoring, app monitoring and services monitoring agents into the instances. Once installed, the real-time monitoring alerts will be available under RLCatalyst Command Centre→Services and RLCatalyst Command Centre→Monitoring Tools .
+RLCatalyst installs monitoring agents in the target nodes on which the Business Services are running. This is done via a bootstrapping process which will install system monitoring, app monitoring and services monitoring agents into the instances. Once installed, the real-time monitoring alerts will be available under RLCatalyst Command Centre→Services and RLCatalyst Command Centre→Monitoring Tools.
 
  1.    Login to <customer name>neo.rlcatalyst.com with the given credentials -> Go to Work zone.    
  2.	   Click on the tree on the left to choose the Organization, Business Group, Project and   
