@@ -254,15 +254,15 @@ On choosing the report to run from a drop-down menu, the user shall be displayed
 
 .. image:: images/HealthsummaryBSMselection.JPG
 
- Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
+Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
 
-  Yesterday: Will mean the time-period from yesterday 12:00am to 11:59pm.
-  This day: Will mean the time-period from 12:00am of the current date to now.
-  This week: Will mean the time-priod from 12:00am of Monday of the current week to now
-  This month: Will mean the time-period from 12:00am of 1st of the current month to now
-  Last 24 hours: will mean 24 hour period from current time.
-  Last 7 days: will mean 24*7 hour period from current time.
-  Last 30 days: will mean 30*24 hour period from current time.
+ Yesterday: Will mean the time-period from yesterday 12:00am to 11:59pm.
+ This day: Will mean the time-period from 12:00am of the current date to now.
+ This week: Will mean the time-priod from 12:00am of Monday of the current week to now
+ This month: Will mean the time-period from 12:00am of 1st of the current month to now
+ Last 24 hours: will mean 24 hour period from current time.
+ Last 7 days: will mean 24*7 hour period from current time.
+ Last 30 days: will mean 30*24 hour period from current time.
  
 .. image:: images/Healthreportinputfields.png
 
