@@ -292,7 +292,7 @@ In the Outage page under trend-view, shall display the alerts raised against tha
 
 .. image:: images/outagetrendchart.JPG
 
- In the Outage page under History-view, an Alerts icon shall be displayed to the user under the “Action” column. Clicking on the icon should lead the user to the Alerts Monitor page with the alerts for only that BSM listed with the latest alert being the last alert seen preceding the Outage detection time.
+In the Outage page under History-view, an Alerts icon shall be displayed to the user under the “Action” column. Clicking on the icon should lead the user to the Alerts Monitor page with the alerts for only that BSM listed with the latest alert being the last alert seen preceding the Outage detection time.
 
 .. image:: images/alerticon.JPG
  
