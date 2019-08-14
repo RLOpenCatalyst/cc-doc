@@ -252,7 +252,7 @@ Clicking on the “Reports” menu item shall lead the user to a screen where he
 On choosing the report to run from a drop-down menu, the user shall be displayed the input fields which are specific to that report.On choosing “Health Summary Report” the following input items shall be displayed.
  BSM: This will be a drop-down that allows a specific BSM item or All BSMs that will run the report under the logged in tenant.
 
-.. image:: images/HealthsummaryBSMselection.png
+.. image:: images/HealthsummaryBSMselection.JPG
 
  Time-period: This will be a drop-down box that allows the user to choose the time-period. Available choices shall be
 
