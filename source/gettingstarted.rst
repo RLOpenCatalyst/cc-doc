@@ -46,7 +46,7 @@ Use details from *Appendix A* for Company Name, User Name, Email & set the Passw
 Open a browser (we recommend Chrome or Firefox). Enter the application URL provided. The login page should open. On the login page, fill the Company, User and Password fields as captured in Appendix A. Then click the Login button. You will see the landing page.  
   Business Service Status View – by default this will not show any data. You will need to configure business services following the instructions in this guide.  
  
-  Service Health – providing a quick way of viewing at a glance, if any of the linked services 
+Service Health – providing a quick way of viewing at a glance, if any of the linked services
 (across BSM’s) are in alarm state (Yellow & Red). By clicking on critical/warning service card, the system shall navigate to the Services page and should show the Service and Nodes tabs related to selected service. 
   
   ServiceNow Ticket Snapshot – by default this will not show any data. You will need to configure a Service Now account following the instructions in this guide.  

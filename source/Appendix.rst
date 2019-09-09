@@ -63,7 +63,7 @@ Download the below Data Collection template by clicking on the following link
 +--------------------------------+-------------------------------------------------------------------------------+   
 |Linked Services (if any)        |< Service1 – IP Address of node it runs on,                                    |  
 |                                |   Service2 – IP Address of node it runs on,                                   |
-|                                |  Service3 – IP Address of node it runs on,                                   |
+|                                |  Service3 – IP Address of node it runs on,                                    |
 +--------------------------------+-------------------------------------------------------------------------------+							  
 |Nodes (VMs or Machines)         | <FQDN of Node1,    FQDN of Node 2, FQDN of Node3>                             |
 +--------------------------------+-------------------------------------------------------------------------------+ 
