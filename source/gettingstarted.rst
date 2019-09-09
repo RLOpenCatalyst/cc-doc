@@ -284,8 +284,7 @@ Command Center will support for following ITSM providers.
 +--------------------+-------------------------------------------------------------------+
 |Authentication Type |Password                                                           |
 +--------------------+-------------------------------------------------------------------+                                        
-| Host               |
-URL to your FreshService Instance E.g.:https://rlab.freshservice.com  |
+| Host               |URL to your FreshService Instance E.g.https://rlab.freshservice.com|
 +--------------------+-------------------------------------------------------------------+
 | UserName           | Enter UserName                                                    |
 +--------------------+-------------------------------------------------------------------+ 
