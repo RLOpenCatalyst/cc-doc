@@ -25,11 +25,10 @@ User will provide the Dependency between Business Service using Yaml file. The Y
 
  * File Name should be in the following order <tenantID>.<BSM Name>.yml.
  * The YAML file should contain Parent BSM and their linked BSM’s
+ * Once the YAML is complete it should be added to the topologies folder.
+ * Then the scheduler server should be restart to refresh all the topologies picked from the file.
  
 .. image:: images/MultiLevelYamlFileConfig.jpg
-
- * Once the YAML is complete it should be added to the topologies folder.
- * Then the scheduler server should be restarted to refresh all the topologies picked from the file.
 
 The dendent Business service will show in the topology(Graphical view and List View) and quick view topology.
 
