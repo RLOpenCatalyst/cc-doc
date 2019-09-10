@@ -15,9 +15,32 @@ Clicking the link of Outage (Red) or Partial Outage available in the Historical 
 
 .. image:: images/HistoricalStatusDrillDownView.png
 
+Multi-level Business Service
+----------------------------
+Multi-level Business Service feature will show the Dependent Business services(Linked Business Services) of the Business Service. User can provide any Business service as Dependent Business service of another Business Service. Whenever dependent Business Service went down the parent Business Service also shown as Yellow.
+
+**Configuration**
+
+User will provide the Dependency between Business Service using Yaml file. The Yaml file should follow the following rules.
+
+ * File Name should be in the following order <tenantID>.<BSM Name>.yml.
+ * The YAML file should contain Parent BSM and their linked BSM’s
+ 
+.. image:: images/MultiLevelYamlFileConfig.jpg
+
+ * Once the YAML is complete it should be added to the topologies folder.
+ * Then the scheduler server should be restarted to refresh all the topologies picked from the file.
+
+The dendent Business service will show in the topology(Graphical view and List View) and quick view topology.
+
+.. image:: images/MultiLevelGraphical.JPG
+
+.. image:: images/MultiLevelListView.JPG
+
+.. image:: images/MultiLevelQuickView.JPG 
+ 
 Viewing Cloud Assets
 --------------------
-
 From the menu at the top left of the top bar, choose CMDB. Cloud assets will be listed once the Cloud Credentials are added in Settings. From the dropdown choose the cloud account and get the summary view and list view as shown in screenshot. The CMDB lists the following:  
   1.    Virtual machines    
   2.    Disks   
