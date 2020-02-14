@@ -440,6 +440,7 @@ This list consist of the BOT parameters that CC can accept currently to execute 
 **Event triggered BOT**
 
 Event triggered runbook execution feature will run the BOT when event is triggered. 
+
 User can configure which BOT can execute on which event by editing runbook. Once the event got triggered from server the configured BOT will run. 
 
 
@@ -470,5 +471,93 @@ Refresh Icon in CC:
 
 History of runbook contains the RunBy column as user can verify the BOTs triggerd information based on tenant or automation BOT.
 
-
 .. image:: images/runByColumn.png
+
+Workflow Monitoring
+--------------------
+
+Workflow monitoring feature is used to monitor the workflows, which are run under the RLCatalyst Workflow Engine. The individual nodes in the workflow are modelled as BOTs. 
+
+Navigate to the Workflow Monitoring page using the Menu at the top left. This will take you to the workflow dashboard page. On the workflow dashboard page, each workflow is represented by a card which shows the total number of runs completed and passed and failed outcomes. 
+
+.. image:: images/Workflow_dashboard.png
+
+Initially there are no workflows it shows "No workflows available" message.
+
+.. image:: images/No_workflow.png
+
+You can add a workflow by clicking on the '+' button. 
+
+.. image:: images/Add_workflow.png
+
+We can add the workflow from Workflow Settings tab on the Settings page. You can also edit or delete the workflow from the Workflow settings tab.
+
+.. image:: images/Settings.png
+
+The RLCatalyst Command Center pulls the workflow details from the RLCatalyst Workflow Engine. Only those workflows which are added to the RLCatalyst Workflow Engine, will be available for addition through the "Add Workflow" screen. Once all workflows are added for monitoring, clicking the + button shows "All  the workflows are already configured" message.
+
+.. image:: images/Configure.png
+
+In the workflow Monitoring page navigate to the top right menu there is option called 'list view',which shows added workflows are diaplyed in list view.
+
+.. image:: images/List_view.png
+
+Filters for daily, weekly and monthly views are available on the workflow dashboard screen. Choosing "Daily" filter will show current date data. Similarly we can choose "Weekly" or "Monthly" filters to see the workflow metrics for corresponding periods.
+
+Clicking on a workflow card navigates to workflow details page. On this page the user can see the history of all the workflow runs. The top of the page shows the topology of the workflow run which has been selected from the table below it.
+
+.. image:: images/Toplogy_view.png
+
+
+Workflow history  details consists following data:
+
++-----------+---------+-------+---------+----------+-------+
+|Start Time |Last Job |Bot ID | Status  |End Time  |Logs   |
++-----------+---------+--------+--------+----------+-------+
+
+There is 'i' button in the logs,which shows logs about BOTS.
+
+We implemented colour codes for nodes and historical runs table:
+
++--------------------+--------------+
+|Status              |Colour code   |
++====================+==============+
+|Not Yet Initiated   | Gray colour  |
++--------------------+--------------+
+|Success             | Green Colour |
++--------------------+--------------+
+|Failure             | Red Colour   |
++--------------------+--------------+
+|In-progress         | Blue colour  |
++--------------------+--------------+
+|Warning             | Yellow colour|
++--------------------+--------------+
+
+A workflow run that completed successfully will show in green color in the table. In the topology view, each node that completed successfully will show in green color.
+
+.. image:: images/Success.png
+
+.. image:: images/Success2.png
+
+A workflow run that completed with an error will show in red color in the table. In the topology view, the node which completed with error (and all following nodes) will show in red color. On failure of a workflow run, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
+
+.. image:: images/Failure.png
+
+.. image:: images/Failure2.png
+
+A workflow run that is delayed beyond the threshold defined in the RLCatalyst Workflow Engine will show in yellow color.  In the topology view, the node which is delayed will show in yellow color.  When a node execution is delayed beyond its threshold, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
+
+.. image:: images/Warning_Message.png
+
+.. image:: images/Warning2_Message.png
+
+When there is not history of workflow runs, all the nodes in the topology section will be shown in gray color.
+
+.. image:: images/Gray.png
+
+When a node is in progress, the color of the node in topology view will be shown in blue color.
+
+.. image:: images/Inprogess.png
+
+
+
