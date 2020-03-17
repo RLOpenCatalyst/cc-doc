@@ -480,7 +480,7 @@ Workflow monitoring feature is used to monitor the workflows, which are run unde
 
 Navigate to the Workflow Monitoring page using the Menu at the top left. This will take you to the workflow dashboard page. On the workflow dashboard page, each workflow is represented by a card which shows the total number of runs completed and passed and failed outcomes. 
 
-.. image:: images/Workflow_dashboard.png
+.. image:: images/Workflow_Dashboard.png
 
 Initially there are no workflows it shows "No workflows available" message.
 
@@ -504,9 +504,11 @@ In the workflow Monitoring page navigate to the top right menu there is option c
 
 Filters for daily, weekly and monthly views are available on the workflow dashboard screen. Choosing "Daily" filter will show current date data. Similarly we can choose "Weekly" or "Monthly" filters to see the workflow metrics for corresponding periods.
 
-Clicking on a workflow card navigates to workflow details page. On this page the user can see the history of all the workflow runs. The top of the page shows the topology of the workflow run which has been selected from the table below it.
+.. image:: images/Filter.png
 
-.. image:: images/Toplogy_view.png
+Clicking on a workflow card navigates to workflow details page. On this page the user can see the history of all the workflow runs. The top of the page shows the topology of the workflow run which has been selected from the table below it.When we click on the node see the status of node like tool-tip message.
+
+.. image:: images/Topology_view.png
 
 
 Workflow history  details consists following data:
@@ -541,15 +543,15 @@ A workflow run that completed successfully will show in green color in the table
 
 A workflow run that completed with an error will show in red color in the table. In the topology view, the node which completed with error (and all following nodes) will show in red color. On failure of a workflow run, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
 
-.. image:: images/Failure.png
+.. image:: images/Error2.png
 
-.. image:: images/Failure2.png
+.. image:: images/Error.png
 
 A workflow run that is delayed beyond the threshold defined in the RLCatalyst Workflow Engine will show in yellow color.  In the topology view, the node which is delayed will show in yellow color.  When a node execution is delayed beyond its threshold, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
 
-.. image:: images/Warning_Message.png
+.. image:: images/Warning.png
 
-.. image:: images/Warning2_Message.png
+.. image:: images/Warning2.png
 
 When there is not history of workflow runs, all the nodes in the topology section will be shown in gray color.
 
@@ -557,7 +559,7 @@ When there is not history of workflow runs, all the nodes in the topology sectio
 
 When a node is in progress, the color of the node in topology view will be shown in blue color.
 
-.. image:: images/Inprogess.png
+.. image:: images/Inprogress.png
 
 
 
