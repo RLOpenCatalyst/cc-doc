@@ -561,5 +561,39 @@ When a node is in progress, the color of the node in topology view will be shown
 
 .. image:: images/Inprogress.png
 
+Analytics Page
+--------------
+It focuses on visualizing the data that we have in ELK(Elastic logstash Kibana) stack, providing analytical recommendations to the users, for detecting the anomalies . We improved this feature for CPU Metric only. It consists Visualize,Advanced analytics,Anomaly Detection tabs.
+	  
+Navigating to analytics page is choose any BSM which leads to health summary details there you can see nodes information.If warning or error alert triggered for cpu_usages_check we should see "info" icon in status . It navigactes the user to analytics page.If tenant has ELK based configuration than only we should navigated to analytics page.
+  
+.. image:: images/Navigation_to_analytics.png	  
 
+.. image:: images/Analytics.png
+
+In analytics page we can see visualize tab.It shows avilable processes whose consume more CPU with percentages and CPU trend for a day in graph model.
+
+.. image:: images/visualize.png
+
+In analytics page we can see Advanced Analytics tab.Here threshold values are derived from the statistical analysis of last one month CPU_usage data of particular node. Based on the threshold values we can reduce the noise in the alerts.It will show proper threshold values for CPU metric of a machine in a table format
+
++-------+----------------------------+---------------------------+-----------------------------+-----------------------------+
+| Node  | Current critical Threshold | Current Warning Threshold | Preferred Current Threshold | Preferred Warning Threshold |
++-------+----------------------------+---------------------------+-----------------------------+-----------------------------+
+|       |                            |                            |                            |                             |
++-------+----------------------------+----------------------------+----------------------------+-----------------------------+
+
+.. image:: images/Advancedanalytics.png
+
+In analytics page we can see Anomaly detection tab.Based on historical data, RLCatalyst Command Center determines if the current alert is an anomaly. An anomaly is an event that does not fit past patterns. In case an anomaly is detected you may want to look at recent changes to the system, unsual processes that are consuming resources etc. to identify the cause of the anomaly
+
+.. image:: images/Anomaly_Detection.png
+
+If alert is already resolved than we should see the message like "Alert is  closed for check cpu_usages_check and node ip"
+
+.. image:: images/closedalert.png
+
+If server is down it shows meassage to user i.e.,"The data is unavailable at this time.please revisit this page later".
+
+.. image:: images/DE_DOWN.png
 
