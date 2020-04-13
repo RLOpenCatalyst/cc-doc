@@ -571,7 +571,7 @@ Navigating to analytics page is choose any BSM which leads to health summary det
 
 .. image:: images/Analytics.png
 
-In analytics page we can see visualize tab.It shows avilable processes whose consume more CPU with percentages and CPU trend for a day in graph model.
+In analytics page we can see visualize tab.It shows top 5 CPU processes whose consume more CPU with percentages and CPU trend for a day in graph model.
 
 .. image:: images/visualize.png
 
