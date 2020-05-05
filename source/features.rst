@@ -1,12 +1,15 @@
 Features
 ========
-
 Historical BSM Health Indicator
 -------------------------------
 Historical BSM Health Indicator gives you the ability to see the trend of the BSM over last 30 days as a consolidated view. Using this view, the user can then navigate to specific outage view of interest..
   
 The view can be available with a *Trend Icon* on Top-Left of BSM View and clicking that can show the Consolidated status of all BSM over last 30 days with appropriate status.  
   
+There is tab like "Business Services" in the main page.When we click on that tab,it's navigated to Business services page.In that page we see the bot's summary information,snow tickets information etc....
+  
+.. image:: images/Navigation_BSM.PNG
+
 .. image:: images/HistoricalStatusTrendIcon.png
 
 .. image:: images/HistoricalStatusView.png
@@ -478,7 +481,9 @@ Workflow Monitoring
 
 Workflow monitoring feature is used to monitor the workflows, which are run under the RLCatalyst Workflow Engine. The individual nodes in the workflow are modelled as BOTs. 
 
-Navigate to the Workflow Monitoring page using the Menu at the top left. This will take you to the workflow dashboard page. On the workflow dashboard page, each workflow is represented by a card which shows the total number of runs completed and passed and failed outcomes. 
+There is tab like "workflows" in main page.when you clicked on that link, it will navigated to workflow monitoring page.On the workflow dashboard page, each workflow is represented by a card which shows the total number of runs completed and passed and failed outcomes. 
+
+.. image:: images/workflow.png
 
 .. image:: images/Workflow_Dashboard.png
 
@@ -521,19 +526,25 @@ There is 'i' button in the logs,which shows logs about BOTS.
 
 We implemented colour codes for nodes and historical runs table:
 
-+--------------------+--------------+
-|Status              |Colour code   |
-+====================+==============+
-|Not Yet Initiated   | Gray colour  |
-+--------------------+--------------+
-|Success             | Green Colour |
-+--------------------+--------------+
-|Failure             | Red Colour   |
-+--------------------+--------------+
-|In-progress         | Blue colour  |
-+--------------------+--------------+
-|Warning             | Yellow colour|
-+--------------------+--------------+
++--------------------+----------------+
+|Status              |Colour code    |
++====================+==============-+
+|Not Yet Initiated   | Gray color    |
++--------------------+---------------+
+|Success             | Green Color   |
++--------------------+---------------+
+|Failure             | Red Color     |
++--------------------+---------------+
+|In-progress         | Blue color    |
++--------------------+---------------+
+|Warning             | Yellow color  |
++--------------------+---------------+
+|cancelled           |Dark Green color|
++--------------------+----------------+
+|Terminate           |Dar Red color   |
++--------------------+----------------+
+|Pause               |  Orange color  | 
++--------------------+----------------+ 
 
 A workflow run that completed successfully will show in green color in the table. In the topology view, each node that completed successfully will show in green color.
 
@@ -541,11 +552,21 @@ A workflow run that completed successfully will show in green color in the table
 
 .. image:: images/Success2.png
 
-A workflow run that completed with an error will show in red color in the table. In the topology view, the node which completed with error (and all following nodes) will show in red color. On failure of a workflow run, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
+A workflow run that completed with an error will show in red color in the table. In the topology view, the node which completed with error (and all following nodes) will show in terminated status with dark red color. On failure of a workflow run, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
 
 .. image:: images/Error2.png
 
 .. image:: images/Error.png
+
+.. image:: images/Terminated.png
+
+A workfow run is in processing user should also cancelled the workflow.In the topology view, the node which completed with cancelled will show in dark green color
+
+.. image:: images/Cancelled.PNG
+
+When workflow run is inprocessing due to database connectivity or crash happened.In the topology view, it will shows pause  with orange color after some time automatically it will restarts the workflow
+
+.. image:: images/Resume.png
 
 A workflow run that is delayed beyond the threshold defined in the RLCatalyst Workflow Engine will show in yellow color.  In the topology view, the node which is delayed will show in yellow color.  When a node execution is delayed beyond its threshold, an e-mail notification will be sent out to the contacts specified in the "Add workflow" screen.
 
@@ -561,17 +582,17 @@ When a node is in progress, the color of the node in topology view will be shown
 
 .. image:: images/Inprogress.png
 
-Analytics Page
---------------
-It focuses on visualizing the data that we have in ELK(Elastic logstash Kibana) stack, providing analytical recommendations to the users, for detecting the anomalies . We improved this feature for CPU Metric only. It consists Visualize,Advanced analytics,Anomaly Detection tabs.
+Analytics Page For CPU Metric
+-----------------------------
+It focuses on visualizing the data that we have in ELK(Elastic logstash Kibana) stack, providing analytical recommendations to the users, for detecting the anomalies . We improved this feature for CPU  Metric. It consists Visualize,Advanced analytics,Anomaly Detection tabs.
 	  
-Navigating to analytics page is choose any BSM which leads to health summary details there you can see nodes information.If warning or error alert triggered for cpu_usages_check we should see "info" icon in status . It navigactes the user to analytics page.If tenant has ELK based configuration than only we should navigated to analytics page.
+Navigating to analytics page is choose any BSM which leads to health summary details there you can see nodes information.If warning or error alert triggered for cpu_usages_check . We should see "info" icon in status . It navigactes the user to analytics page.If tenant has ELK based configuration than only we should navigated to analytics page.
   
 .. image:: images/Navigation_to_analytics.png	  
 
 .. image:: images/Analytics.png
 
-In analytics page we can see visualize tab.It shows top 5 CPU processes whose consume more CPU with percentages and CPU trend for a day in graph model.
+In analytics page we can see visualize tab.It shows top 5 CPU processes whose consume more CPU with percentages and CPU trend for a day in graph model. 
 
 .. image:: images/visualize.png
 
@@ -596,4 +617,42 @@ If alert is already resolved than we should see the message like "Alert is  clos
 If server is down it shows meassage to user i.e.,"The data is unavailable at this time.please revisit this page later".
 
 .. image:: images/DE_DOWN.png
+
+Analytics Page For MEMORY Metric
+--------------------------------
+It focuses on visualizing the data that we have in ELK(Elastic logstash Kibana) stack, providing analytical recommendations to the users, for detecting the anomalies . It consists Visualize,Advanced analytics tabs.
+	  
+Navigating to analytics page is choose any BSM which leads to health summary details there you can see nodes information.If warning or error alert triggered for Memory_usages_check we should see "info" icon in status . It navigactes the user to analytics page.If tenant has ELK based configuration than only we should navigated to analytics page.
+  
+.. image:: images/Navigation_analytics_memory.png	  
+
+.. image:: images/Analytics_memory.png
+
+In analytics page we can see visualize tab.It shows top 5 MEMORY processes and MEMORY trend for a day i.e., we can see cache data,free data and used data.
+
+.. image:: images/visualize_memory.png
+
+In analytics page we can see Advanced Analytics tab.Here threshold values are derived from the statistical analysis of last one month MEMORY_usage data of particular node. Based on the threshold values we can reduce the noise in the alerts.It will show proper threshold values for MEMORY metric of a machine in a table format
+
++-------+----------------------------+---------------------------+-----------------------------+-----------------------------+
+| Node  | Current critical Threshold | Current Warning Threshold | Preferred Current Threshold | Preferred Warning Threshold |
++-------+----------------------------+---------------------------+-----------------------------+-----------------------------+
+|       |                            |                            |                            |                             |
++-------+----------------------------+----------------------------+----------------------------+-----------------------------+
+
+.. image:: images/advanced_analytics1.png
+
+If alert is already resolved than we should see the message like "Alert is  closed for check Memory_usages_check and node ip"
+
+.. image:: images/alertclosed.png
+
+If server is down it shows meassage to user i.e.,"The data is unavailable at this time.please revisit this page later".
+
+.. image:: images/DE_down1.png
+
+In analytics page we can see Anomaly detection tab.Based on historical data, RLCatalyst Command Center determines if the current alert is an anomaly. An anomaly is an event that does not fit past patterns. In case an anomaly is detected you may want to look at recent changes to the system, unusual processes that are consuming resources .
+
+.. image:: images/Anomaly_memory.png
+
+
 
